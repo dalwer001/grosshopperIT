@@ -1,0 +1,48 @@
+.header-bg {
+    background-image: url('../../../assests/svg/haeder.svg');
+    background-repeat: no-repeat;
+    background-size: 180%;
+    /* background: #2E2669; */
+}
+
+.header-btn {
+    width: 180px;
+    height: 55px;
+    background: -moz-linear-gradient(left, rgba(244, 14, 118, 1) 14%, rgba(255, 103, 15, 1) 55%, rgba(234, 212, 14, 1) 100%);
+    background: -webkit-linear-gradient(left, rgba(244, 14, 118, 1) 14%, rgba(255, 103, 15, 1) 55%, rgba(234, 212, 14, 1) 100%);
+    background: linear-gradient(to right, rgba(244, 14, 118, 1) 14%, rgba(255,103, 15, 1) 55%, rgba(234, 212, 14, 1) 100%);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: .3s all ease-in-out;
+}
+
+.header-btn:hover {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.move-pic{
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: move;
+}
+
+@keyframes move{
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}

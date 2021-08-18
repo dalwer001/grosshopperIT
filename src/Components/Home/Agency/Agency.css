@@ -1,0 +1,24 @@
+.agency{
+    margin-top:10rem;
+    margin-bottom: 10rem;
+}
+.agency-text{
+    color: #1F2471;
+    opacity: .6;
+}
+
+.counter-text{
+    color: #1F2471;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.counter-text-p{
+    color: #1F2471;
+    opacity: .8;
+}
+
+.counter-div{
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px 5px #ECF0F5;
+}
