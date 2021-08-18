@@ -1,0 +1,32 @@
+.feature {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.feature-card-img {
+    margin: 10px;
+    width: 80px;
+    background: linear-gradient(to right, rgba(18, 9, 43, 1) 1%, rgba(124, 81, 181, 1) 100%);
+    border-radius: 50%;
+    padding: 15px;
+    color: white;
+}
+
+.feature-card-header {
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #1F2471;
+}
+
+.feature-card-text {
+    padding: 5px;
+    color: #1F2471;
+    opacity: .6;
+}
+
+.feature-card-body {
+    width: 320px;
+    padding: 10px;
+    text-align: justify;
+}

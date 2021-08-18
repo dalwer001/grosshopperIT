@@ -8,10 +8,10 @@ const Agency = () => {
     return (
         <section className="container agency">
             <div className="row">
-                <div className="col-sm-12 col-md-6 col-md-6">
+                <div className="col-sm-12 col-md-12 col-lg-6">
                     <img src={pic} className="move-pic w-100 img-fluid" alt="" />
                 </div>
-                <div className="col-sm-12 col-md-6 col-md-6 p-5">
+                <div className="col-sm-12 col-md-12 col-lg-6 p-5">
                     <h1 className="section-header">Why Our Agency</h1>
                     <div className="d-flex">
                         <div className="short-underLine">

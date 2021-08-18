@@ -3,6 +3,7 @@ import Navbar from '../../Shared/Navbar/Navbar';
 import Agency from '../Agency/Agency';
 import Features from '../Features/Features';
 import Header from '../Header/Header';
+import OurPortfolio from '../OurPortfolio/OurPortfolio';
 import SpecializationPart from '../SpeciallizationPart/SpecializationPart';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <SpecializationPart/>
             <Agency/>
             <Features/>
+            <OurPortfolio/>
         </div>
     );
 };
