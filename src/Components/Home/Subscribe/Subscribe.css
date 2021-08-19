@@ -1,0 +1,51 @@
+.subscribe {
+    height: auto;
+    padding:80px 0px;
+    color: white;
+    background: url('../../../images/background/bg11.png') no-repeat top center, linear-gradient(to right, #160422f3, #7428d6ba);
+}
+
+.form-control{
+    height: 56px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius:22px !important;
+    border-top-right-radius: 22px !important;
+    padding: 10px 20px !important;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: all .3s ease-in-out;
+    /* position: relative; */
+    z-index: 0;
+}
+
+
+.subscribe-btn{
+    /* position: relative; */
+    background: linear-gradient(to right, rgba(244,14,118,1) 14%,rgba(255,103,15,1) 55%,rgba(238, 164, 45) 100%);
+    border-bottom-left-radius:22px ;
+    border-top-right-radius: 22px ;
+    color:white;
+    font-size: normal;
+    font-weight: bold;
+    padding: 10px 20px !important;
+    margin-bottom: 0;
+    transform: translateY(-50px);
+    margin-left: 470px;
+    border: 0;
+    z-index: 25;
+}
+
+.form-control:focus{
+    border: 1px solid #F01F75;
+}
+
+.subscribe-btn:hover{
+    border-bottom-left-radius:0px ;
+    border-top-right-radius: 0px ;
+
+    border-bottom-right-radius:22px ;
+    border-top-left-radius: 22px ;
+    
+}
+

@@ -1,0 +1,53 @@
+.expertise{
+    background: #F8F5FF;
+    margin-bottom: 50px;
+}
+
+.slider-pic{
+    border-radius:50px 0px 50px 50px;
+    transition: .5s all ease-in-out;
+}
+
+.expert-title{ 
+    color: #1F2471;
+    font-weight: 800;
+    font-size: 35px;
+    transition: .25s all ease-in-out;
+}
+
+.expert-text{
+    color: #737599;
+    font-weight: 400;
+    font: 15px;
+}
+
+.expert-card{
+    transition: .5s all ease-in-out;
+}
+
+.expert-card:hover .slider-pic{
+    border-radius:50px 50px 50px 0px;
+}
+
+.expert-title:hover{
+    color: #B60C52;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #B60C52;
+}
+
+.slick-dots li button:before {
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #B60C52;
+}

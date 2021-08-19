@@ -11,7 +11,7 @@ const Header = () => {
                 <div className="row d-flex align-items-center p-5">
                     <div className="col-md-6 mt-5">
                         <p className="text-warning fw-bold">We Are Product Designer From India</p>
-                        <h1 className="text-light fw-bolder">We Design Interfaces That Users Love</h1>
+                        <h3 className="text-light fw-bolder">We Design Interfaces That Users Love</h3>
                         <p className="text-light">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus.</p>
                         <p className="header-btn p-3 text-center text-light fw-bolder">Learn More</p>
                     </div>

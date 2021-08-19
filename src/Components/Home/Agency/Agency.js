@@ -1,7 +1,6 @@
 import React from 'react';
 import pic from '../../../images/about/img6.png';
 import CountUp from 'react-countup';
-import VisibilitySensor from 'react-visibility-sensor';
 import './Agency.css';
 
 const Agency = () => {

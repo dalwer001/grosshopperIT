@@ -1,0 +1,21 @@
+.portfolio{
+    background: #F8F5FF;
+}
+
+.port-image{
+    width: 100%;
+    padding: 20px;
+}
+
+.btn-hover{
+    background:#F7DFF1;
+    color:#111942;
+    transition: .25s all ease-out;
+    cursor: default;
+}
+
+.btn-hover:hover{
+    background: linear-gradient(to right, rgba(244,14,118,1) 14%,rgba(255,103,15,1) 55%,rgba(238, 164, 45) 100%);
+    box-shadow: 0px 2px 15px #F6C9E3;
+    color: #ffff;
+}

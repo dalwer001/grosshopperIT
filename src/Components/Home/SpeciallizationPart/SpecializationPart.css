@@ -20,7 +20,7 @@
 .short-underLine{
     width: 60px;
     height: 8px;
-    background: linear-gradient(to right, rgba(244, 14, 118, 1) 14%, rgba(255,103, 15, 1) 55%, rgba(234, 212, 14, 1) 100%);
+    background: linear-gradient(to right, rgba(244,14,118,1) 14%,rgba(255,103,15,1) 55%,rgba(238, 164, 45) 100%);
     border-radius: 5px;
     margin-bottom: 50px;
     margin-right: 10px;
@@ -28,7 +28,7 @@
 .long-underLine{
     width: 120px;
     height: 8px;
-    background: linear-gradient(to right, rgba(244, 14, 118, 1) 14%, rgba(255,103, 15, 1) 55%, rgba(234, 212, 14, 1) 100%);
+    background: linear-gradient(to right, rgba(244,14,118,1) 14%,rgba(255,103,15,1) 55%,rgba(238, 164, 45) 100%);
     border-radius: 5px;
     margin-bottom: 50px;
 }
@@ -45,7 +45,7 @@
 }
 
 
-.card:hover{
+.special-card:hover{
     box-shadow: 1px 2px 1px 5px #f1f3f8;
 }
 
@@ -63,15 +63,12 @@
     color: #F01F75;
 }
 
-.arrow-design:hover{
+.special-card:hover .arrow-design{
     color: #ffff;
     background: linear-gradient(to right, rgba(18,9,43,1) 1%,rgba(124,81,181,1) 100%);
     border: #FFFFFF;
 }
 
-.card{
-
-}
 
 /* .arrow-design:after{
     transition: .30s;

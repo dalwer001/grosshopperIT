@@ -1,16 +1,16 @@
 .header-bg {
-    background-image: url('../../../assests/svg/haeder.svg');
+    background:url('../../../images/background/bg12.png'), url('../../../assests/svg/haeder.svg')no-repeat top center;
     background-repeat: no-repeat;
-    background-size: 180%;
+    background-size: cover;
     /* background: #2E2669; */
 }
 
 .header-btn {
     width: 180px;
     height: 55px;
-    background: -moz-linear-gradient(left, rgba(244, 14, 118, 1) 14%, rgba(255, 103, 15, 1) 55%, rgba(234, 212, 14, 1) 100%);
-    background: -webkit-linear-gradient(left, rgba(244, 14, 118, 1) 14%, rgba(255, 103, 15, 1) 55%, rgba(234, 212, 14, 1) 100%);
-    background: linear-gradient(to right, rgba(244, 14, 118, 1) 14%, rgba(255,103, 15, 1) 55%, rgba(234, 212, 14, 1) 100%);
+    background: -moz-linear-gradient(left, rgba(244,14,118,1) 14%, rgba(255,103,15,1) 55%, rgb(238, 164, 45) 100%);
+    background: -webkit-linear-gradient(left, rgba(244,14,118,1) 14%,rgba(255,103,15,1) 55%,rgb(238, 164, 45) 100%);
+    background: linear-gradient(to right, rgba(244,14,118,1) 14%,rgba(255,103,15,1) 55%,rgba(238, 164, 45) 100%);
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     transition: .3s all ease-in-out;

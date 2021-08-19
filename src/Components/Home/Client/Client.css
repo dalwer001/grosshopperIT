@@ -1,0 +1,35 @@
+.client{
+    background: #F8F5FF;
+}
+
+.client-img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.client-icon{
+    position: relative;
+    font-size: 45px;
+    color: #606392;
+    top:0;
+    right: 0;
+    z-index: 25;
+    transform: translate(80px);
+    margin-top: -40px;
+}
+
+.client-text{
+    color: #5B5E90;
+    width: 650px;
+}
+
+.client-name{
+    color:#3C4165;
+}
+
+.client-hypen{
+    width: 25px;
+    height: 2px;
+    background: #242974;
+}
