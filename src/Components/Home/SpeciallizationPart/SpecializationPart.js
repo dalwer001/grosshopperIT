@@ -53,7 +53,7 @@ const SpecializationPart = () => {
                     special.map(data =>
                         <div className="col-sm-12 col-md-6 col-lg-4 mb-5">
                             <div class="card special-card border-0" style={{width:'25rem'}}>
-                                <div className="card-img-top d-flex align-items-center">
+                                <div className="card-img-top d-flex justify-content-center align-items-center">
                                 <img src={data.bg} class="card-bg card-img-top" alt="..." />
                                 <img src={data.pic} class="card-pic card-img-top" alt="" />
                                 </div>
