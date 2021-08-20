@@ -21,7 +21,7 @@
 
 
 .subscribe-btn{
-    /* position: relative; */
+    position: absolute;
     background: linear-gradient(to right, rgba(244,14,118,1) 14%,rgba(255,103,15,1) 55%,rgba(238, 164, 45) 100%);
     border-bottom-left-radius:22px ;
     border-top-right-radius: 22px ;
@@ -30,8 +30,7 @@
     font-weight: bold;
     padding: 10px 20px !important;
     margin-bottom: 0;
-    transform: translateY(-50px);
-    margin-left: 470px;
+    transform: translate(-5px,8px);
     border: 0;
     z-index: 25;
 }
@@ -43,9 +42,13 @@
 .subscribe-btn:hover{
     border-bottom-left-radius:0px ;
     border-top-right-radius: 0px ;
-
     border-bottom-right-radius:22px ;
     border-top-left-radius: 22px ;
     
 }
 
+.buttonIn {
+    width: auto;
+    position: relative;
+    padding: 30px;
+}

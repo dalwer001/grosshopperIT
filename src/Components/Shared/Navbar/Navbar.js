@@ -41,22 +41,22 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav class={navbar ? "navbar navbar-expand-lg background fixed-top active" : "navbar navbar-expand-lg background navbar navbar-expand-lg background fixed-top"}>
+            <nav class="navbar navbar-expand-lg background bg-light fixed-top active">
                 <div class="container">
                     <a class="navbar-brand p-3" href="#">
-                        <img src={logo} alt="" width="100%" height="50%" />
+                        <img src={logoBlue} alt="" width="100%" height="50%" />
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="toggle-icon"><FontAwesomeIcon icon={faBars} /></span>
+                        <span className="toggle-icon border-0"><FontAwesomeIcon icon={faBars} /></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
                             <li class="nav-item">
-                                <a class="nav-link text-light fw-bolder mx-2" aria-current="page" href="#">Home</a>
+                                <a class="nav-link nav-text fw-bolder mx-2" aria-current="page" href="#">Home</a>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle fw-bolder text-light mx-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle fw-bolder nav-text  mx-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Pages
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -71,7 +71,7 @@ const Navbar = () => {
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle fw-bolder text-light mx-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle fw-bolder nav-text  mx-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Services
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -81,8 +81,8 @@ const Navbar = () => {
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle fw-bolder text-light mx-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Blog
+                                <a class="nav-link dropdown-toggle fw-bolder nav-text  mx-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="#">Large Left Sidebar</a></li>
@@ -91,7 +91,7 @@ const Navbar = () => {
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link fw-bolder text-light mx-2" aria-current="page" href="#">Contact Us</a>
+                                <a class="nav-link fw-bolder nav-text mx-2" aria-current="page" href="#">Contact Us</a>
                             </li>
 
                             <li class="nav-item">

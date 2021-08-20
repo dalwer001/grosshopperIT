@@ -1,13 +1,11 @@
 import React from 'react';
 import headerImg from '../../../images/main-slider/slider3/pic1.png';
-import Navbar from '../../Shared/Navbar/Navbar';
 import './Header.css';
 
 const Header = () => {
     return (
         <div className="header-bg">
-            <Navbar/>
-            <div className="container mb-5">
+            <div className="container mb-5 mt-5">
                 <div className="row d-flex align-items-center p-5">
                     <div className="col-md-6 mt-5">
                         <p className="text-warning fw-bold">We Are Product Designer From India</p>

@@ -1,13 +1,18 @@
 import './App.css';
 import Home from './Components/Home/Home/Home';
-import CountUp from 'react-countup';
+import Footer from './Components/Shared/Footer/Footer/Footer';
+import Navbar from './Components/Shared/Navbar/Navbar';
+import ScrollButton from './Components/Shared/ScrollButton/ScrollButton';
 
 
 function App() {
   return (
-    <div>
+    <>
+      <Navbar />
       <Home />
-    </div>
+      <ScrollButton/>
+      <Footer />
+    </>
 
   );
 }

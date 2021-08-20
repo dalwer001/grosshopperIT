@@ -53,8 +53,8 @@ const Plan = () => {
         <div className="container mt-5 mb-5">
             <div className="row mb-5">
                 {plan.map(plan=>
-                <div className="col-sm-12 col-md-6 col-lg-4 mb-5 p-5">
-                    <div class="border-0 plan-card p-5" style={{ width: '25rem' }}>
+                <div className="col-sm-12 col-md-6 col-lg-4 mb-5 mt-5 d-flex justify-content-center">
+                    <div class="border-0 plan-card p-5" style={{ width: '22rem' }}>
                         <h2 className="text-center plan-title fw-bolder mt-5">{plan.title}</h2>
                         <div className="card-img-top text-center">
                             <img src={plan.img} class="w-75 img-fluid card-img-top" alt="..." />

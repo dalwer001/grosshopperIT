@@ -1,0 +1,46 @@
+.footer {
+    height: auto;
+    padding: 80px 0px;
+    color: white;
+    background: url('../../../../images/background/bg11.png') no-repeat top center, linear-gradient(to right, #2a0f69f3, #5219a1ca, #2a0f69f3);
+}
+
+.icon-design {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 14px;
+    color: #f01f75;
+    background-color: #fff;
+    transition: all .5s;
+    margin: 2px;
+}
+
+.icon-design:hover {
+    color: #ffff;
+    background: linear-gradient(to right, rgba(149, 25, 81, 0.822) 14%, rgba(255, 103, 15, 0.767) 55%, rgba(238, 164, 45, 0.835) 100%)!important;
+}
+
+.contact-design {
+    color: #ffff;
+    background: linear-gradient(to right, rgba(149, 25, 81, 0.822) 14%, rgba(255, 103, 15, 0.767) 55%, rgba(238, 164, 45, 0.835) 100%)!important;
+}
+
+.footer-short-underLine {
+    width: 20px;
+    height: 5px;
+    background: #ffff;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+.footer-long-underLine {
+    width: 60px;
+    height: 5px;
+    background: #ffff;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}

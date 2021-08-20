@@ -1,6 +1,7 @@
 import React from 'react';
 import pic from '../../../images/about/img6.png';
 import CountUp from 'react-countup';
+import VisibilitySensor from "react-visibility-sensor";
 import './Agency.css';
 
 const Agency = () => {
@@ -25,18 +26,36 @@ const Agency = () => {
                     </p>
                     <div className="row">
                         <div className="col-md-4 text-center counter-div">
-                            <CountUp end={9875} start={5243} duration={1} className="counter-text">
-                            </CountUp>
+                            <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                                {({ isVisible }) => (
+                                    <div style={{ height: 40 }}>
+                                        {isVisible ? <CountUp end={9875} start={5243} duration={1} className="counter-text">
+                                        </CountUp> : null}
+                                    </div>
+                                )}
+                            </VisibilitySensor>
                             <p className="counter-text-p">Satisfied Clients</p>
                         </div>
                         <div className="col-md-4 text-center counter-div">
-                            <CountUp end={7894} start={6235} duration={1} className="counter-text">
-                            </CountUp>
+                            <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                                {({ isVisible }) => (
+                                    <div style={{ height: 40 }}>
+                                        {isVisible ? <CountUp end={7894} start={6235} duration={1} className="counter-text">
+                                        </CountUp> : null}
+                                    </div>
+                                )}
+                            </VisibilitySensor>
                             <p className="counter-text-p">Project Lunched</p>
                         </div>
                         <div className="col-md-4 text-center counter-div">
-                            <CountUp end={65} start={1} duration={1} className="counter-text">
-                            </CountUp>
+                            <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                                {({ isVisible }) => (
+                                    <div style={{ height: 40 }}>
+                                        {isVisible ? <CountUp end={65} start={1} duration={1} className="counter-text">
+                                        </CountUp> : null}
+                                    </div>
+                                )}
+                            </VisibilitySensor>
                             <p className="counter-text-p">Years Completed</p>
                         </div>
                     </div>

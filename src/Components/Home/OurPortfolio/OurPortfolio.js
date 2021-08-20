@@ -69,19 +69,31 @@ const OurPortfolio = () => {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="d-flex justify-content-center">
-                        <p className=" px-4 py-2 rounded-pill mx-1 fs-5 btn-hover">All</p>
-                        <p className=" px-4 py-2 rounded-pill mx-1 fs-5 btn-hover">Web Design</p>
-                        <p className=" px-4 py-2 rounded-pill mx-1 fs-5 btn-hover">Web Development</p>
-                        <p className=" px-4 py-2 rounded-pill mx-1 fs-5 btn-hover">Branding</p>
-                        <p className=" px-4 py-2 rounded-pill mx-1 fs-5 btn-hover">Mobile App</p>
-                        <p className=" px-4 py-2 rounded-pill mx-1 fs-5 btn-hover">SEO</p>
+                    <div className="row d-flex justify-content-center">
+                        <div className="col-md-3 col-lg-2 col-sm-4">
+                            <p className=" px-4 py-2 rounded-pill  text-center fs-5 btn-hover">All</p>
+                        </div>
+                        <div className="col-md-3 col-lg-2 col-sm-4">
+                            <p className=" px-4 py-2 rounded-pill text-center  fs-5 btn-hover">Web Design</p>
+                        </div>
+                        <div className="col-md-3 col-lg-2 col-sm-4">
+                            <p className=" px-4 py-2 rounded-pill text-center  fs-5 btn-hover">Web Development</p>
+                        </div>
+                        <div className="col-md-3 col-lg-2 col-sm-4">
+                            <p className=" px-4 py-2 rounded-pill  text-center fs-5 btn-hover">Branding</p>
+                        </div>
+                        <div className="col-md-3 col-lg-2 col-sm-4">
+                            <p className=" px-4 py-2 rounded-pill text-center  fs-5 btn-hover">Mobile App</p>
+                        </div>
+                        <div className="col-md-3 col-lg-2 col-sm-4">
+                            <p className=" px-4 py-2 rounded-pill text-center  fs-5 btn-hover">SEO</p>
+                        </div>
                     </div>
                     <div className="row">
                         {
                             port.map(port =>
                                 <div className="col-sm-12 col-md-6 col-lg-4">
-                                    <img src={port.image} className="port-image img-fluid" alt=""/>
+                                    <img src={port.image} className="port-image img-fluid" alt="" />
                                 </div>
                             )
                         }

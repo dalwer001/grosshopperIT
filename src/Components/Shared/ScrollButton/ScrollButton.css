@@ -1,0 +1,12 @@
+.jump-btn{
+    box-shadow: -4px 4px 24px -10px #f01f75!important;
+    background: #f01f75;
+    border-radius: 4px;
+    border: 0 solid #f01f75;
+    color: #fff;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 1.875em;
+    height: 3rem;
+}

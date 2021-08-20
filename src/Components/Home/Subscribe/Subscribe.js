@@ -10,7 +10,7 @@ const Subscribe = () => {
                         <h1 className="fw-bolder">Subscribe To Our Newsletter For Latest Update Of New Products</h1>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6">
-                        <form>
+                        <form className="buttonIn d-flex justify-content-end">
                             <input type="email" className="form-control form-style border-0" placeholder="Email Address" required />
                             <button className="subscribe-btn">Subscribe Now</button>
                         </form>
