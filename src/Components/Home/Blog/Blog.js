@@ -7,7 +7,6 @@ import img4 from '../../../images/blog/default/thum4.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faClock, faComment, faShareAlt } from '@fortawesome/free-solid-svg-icons';
-
 import ReactTooltip from "react-tooltip";
 import './Blog.css';
 
@@ -44,8 +43,7 @@ const blogData = [
         "img": img4,
         "message": 15
     }
-
-]
+];
 
 const Blog = () => {
     const [news, setNews] = useState([]);
