@@ -4,9 +4,6 @@
     border-radius: 4px;
     border: 0 solid #f01f75;
     color: #fff;
-}
-
-.svg-inline--fa.fa-w-14 {
-    width: 1.875em;
-    height: 3rem;
+    width: 1.875em !important;
+    height: 3rem !important;
 }

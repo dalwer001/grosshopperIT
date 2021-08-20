@@ -71,19 +71,19 @@ const Blog = () => {
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <a href class="blog-title text-decoration-none">{blog.title}</a>
-                                            <p class="blog-text">{blog.description}</p>
+                                            <a href="#" class="blog-title text-decoration-none">{blog.title}</a>
+                                            <p class="blog-text mt-2">{blog.description}</p>
                                             <div className="d-flex">
-                                                <p><small class="blog-footer fw"><FontAwesomeIcon icon={faClock} className="mx-2 blog-date" />{blog.date}</small></p>
-                                                <p><FontAwesomeIcon icon={faComment} className="blog-date ms-5" /><small className="blog-footer mx-2">{blog.message}</small></p>
+                                                <p><small class="blog-footer fw-bold"><FontAwesomeIcon icon={faClock} className="mx-2 blog-date" />{blog.date}</small></p>
+                                                <p><FontAwesomeIcon icon={faComment} className="blog-date ms-5" /><small className="blog-footer mx-2 fw-bold">{blog.message}</small></p>
                                                 <p data-tip data-for="share">
                                                     <FontAwesomeIcon icon={faShareAlt} className="blog-date mx-2" />
                                                 </p>
                                                 <ReactTooltip id="share" place="left" effect="solid" clickable={true} backgroundColor="#F01F75">
                                                     <div className="d-flex font-bg">
-                                                        <a href=""><FontAwesomeIcon icon={faFacebookF} className="text-light blog-date mx-2 " /></a>
-                                                        <a href=""><FontAwesomeIcon icon={faTwitter} className="text-light blog-date mx-2" /></a>
-                                                        <a href=""><FontAwesomeIcon icon={faLinkedinIn} className="text-light blog-date mx-2" /></a>
+                                                        <a href="#"><FontAwesomeIcon icon={faFacebookF} className="text-light blog-date mx-2 " /></a>
+                                                        <a href="#"><FontAwesomeIcon icon={faTwitter} className="text-light blog-date mx-2" /></a>
+                                                        <a href="#"><FontAwesomeIcon icon={faLinkedinIn} className="text-light blog-date mx-2" /></a>
                                                     </div>
                                                 </ReactTooltip>
                                             </div>
