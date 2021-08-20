@@ -12,6 +12,7 @@
 
 .card-pic{
     position: absolute;
+    width: 250px;
     height:80px;
     justify-content: center;
 }
